@@ -1,5 +1,5 @@
 {
-  "name": "grpcx",
+  "name": "@silverlabs/grpcx",
   "version": "0.1.0",
   "description": "A framework for abstracting grpc.",
   "main": "src/index.js",
