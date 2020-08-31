@@ -12,7 +12,8 @@ function getPackageName(protoFile) {
 function getServiceName(protoFile) {
   return getPackageName(protoFile)
     .split('_')
-    .map((str) => `${str[0].toUpperCase()}${str.slice(1)}`);
+    .map((str) => `${str[0].toUpperCase()}${str.slice(1)}`)
+    .join('');
 }
 
 function loadPackage(protoFile) {
